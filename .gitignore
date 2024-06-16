@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+study_sessions.csv
+.credentials
+credentials.json
+credentials/
+.idea/
+.idea
 # C extensions
 *.so
 
