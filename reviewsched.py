@@ -57,8 +57,8 @@ calendar.add_event(event)
 print("Creating Exercises APT event...")
 
 # spaced repetition reviews
-spaced_repetition_intervals = [1, 7, 16, 35]
-review_numbers = [1, 2, 3, 4]
+spaced_repetition_intervals = [1, 3, 7, 16, 35, 90]
+review_numbers = [1, 2, 3, 4, 5, 6]
 for repetition_interval, review_number in zip(spaced_repetition_intervals, review_numbers):
     print(f"Creating Review APTR {repetition_interval} event...")
     event = Event(summary=f"Review APTR {review_number} - {session}",
